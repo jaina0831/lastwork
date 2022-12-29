@@ -1,0 +1,467 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+    font-family: 'SNsanafonmaru';
+    src: local('SNsanafonmaru'),
+        url('/fonts/SNsanafonmaru.woff') format('woff');
+  }
+@font-face {
+    font-family: 'KurewaGothicCjkTc-Bold';
+    src: local('KurewaGothicCjkTc-Bold'),
+        url('/fonts/KurewaGothicCjkTc-Bold.woff') format('woff');
+  }
+
+.html{
+width: 100%;
+}
+.header{
+    width: 1425px;
+    margin: auto;
+}
+
+.navbar-brand {
+    font-family:'SNsanafonmaru';
+    font-size: 20px;
+    font-weight: 900;
+}
+
+@media (min-width: 768px) {
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
+.robort{
+    display: block;
+    width: 40px;
+    height:40px;
+    margin: 0 10px 0 0px;
+    padding: 0 0 0 0;
+}
+.robort:hover{
+    transform: scale(1.2);
+    border-radius: 50%;
+    background-color:rgb(255, 229, 156);
+}
+
+.user{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 0 0 0px;
+    padding: 0 0 0 0;
+}
+.user:hover{
+    transform: scale(1.2);
+    border-radius: 50%;
+    background-color:rgb(255, 229, 156);
+}
+.role{
+    display: flex;
+    display: block;
+    text-decoration: none;
+    padding:0px 0px 0 0;
+    margin: 0 0px 0 0;
+    width: 90px;
+    height: 50px;
+    font-family:"KurewaGothicCjkTc-Bold";
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 55px;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+    
+}
+.role:hover{
+    transform: scale(1.2);
+    color: rgb(255, 229, 156);
+    text-decoration: none;
+  }
+  .article{
+    width: 1425px;
+    margin: auto;
+}
+.firstsection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        /* border-width: 1px;
+        border-style: solid none none;
+        border-color: black;
+        border-image: initial;
+        border-bottom: none;
+        border-left: none;
+        border-right: none; */
+    }
+
+    .firstsection img{
+        position:absolute;
+      /* 淡出淡入效果2秒 */
+      -webkit-transition: opacity 1s ease-in-out;
+      -moz-transition: opacity 1s ease-in-out;
+      -o-transition: opacity 1s ease-in-out;
+      transition: opacity 1s ease-in-out;
+    }
+    .firstsection img:last-child:hover{
+        /* 滑入時第一張透明度設0 */
+        opacity:0;}
+
+    .firstsection-words{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        width: 300px;
+        height: 300px;
+        margin: 0 0 0 100px;
+        font-family:'SNsanafonmaru';
+        font-size: 16px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 20px;
+        letter-spacing: normal;
+        text-align: left;
+        color: black;
+    }
+    .firstsection-words h1{
+        text-align: center;
+        width: 200px;
+        height: 40px;
+        margin: 0 0 0 0 ;
+        background-color: rgb(255, 229, 156);
+        font-size: 50px;
+    }
+    .cat1{
+        width: 250px;
+        height: 250px;
+        margin: 0 40px 0 0 ;
+    }
+    .secondsection{
+        display: flex;
+        justify-content: center;
+        margin:10px 0 10px 0 ;
+        width: 1425px;
+        margin: auto;
+        height:60px;
+        margin-left: auto;
+        margin-right: auto;
+        /* border-width: 1px;
+    border-style: solid none none;
+    border-color: black;
+    border-image: initial;
+    border-bottom: none;
+    border-left: none;
+    border-right: none; */
+    }
+    .function{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 170px;
+        height: 45px;
+        background-color: rgb(255, 229, 156);
+        font-family:'SNsanafonmaru';
+        font-size: 40px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 55px;
+        letter-spacing: normal;
+        text-align: center;
+        color: white;
+    
+    }
+
+    .footer{
+        height: 200px;
+        background-color: rgb(255, 229, 156);
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    .firstfooter-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        margin: 0px 0 0 0px;
+        padding: 0px 0px 0px 0px;
+        border-radius: 3px;
+    }
+    .firstfooter-list{
+        display: flex;
+        padding: 0;
+        margin: 20px 0 0 40px;
+    }
+    .firstfooter-list-items{
+        display: flex;
+        width: 90px;
+        height: 60px;
+        margin: 0 0px 0 0;
+        list-style: none;
+    }
+    .firstfooter-img{
+        width: 50px;
+        height: 50px;
+        margin: 0px 0 0 0;
+    }
+    .firstfooter-list-items-link{
+        display: flex;
+        display: block;
+        text-decoration: none;
+        padding:0px 0px 0 0;
+        margin: 0px 0px 0 0;
+        width: 50px;
+        height: 50px;
+    }
+    .firstfooter-list-items-link:hover{
+        transform: scale(1.2);
+        border-radius: 33%;
+        background-color: white;
+      }
+    .secondfooter-box{
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        margin: 0px 0 0 0px;
+        padding: 0px 0px 0px 0px;
+        border-radius: 3px;
+    }
+    .secondfooter-list{
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    .secondfooter-list-items{
+        display: flex;
+        width: 90px;
+        height: 60px;
+        margin: 0px 0px 0 0;
+        list-style: none;
+    }
+    .secondfooter-list-items-link{
+        display: flex;
+        display: block;
+        text-decoration: none;
+        padding:0px 0px 0 0;
+        margin: 0 0px 0 0;
+        width: 90px;
+        height: 60px;
+        font-family:'SNsanafonmaru';
+        font-size: 16px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 55px;
+        letter-spacing: normal;
+        text-align: center;
+        color: black;
+    }
+    .secondfooter-list-items-link:hover{
+        transform: scale(1.2);
+        color: black;
+      }
+    .lastbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .alarm-item{
+        width: 500px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+    .alarm-item p{
+        font-family:'SNsanafonmaru';
+        font-size: 16px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: center;
+        margin: 0 0 0 0;
+        color: white;
+    }
+.carousel-inner{
+    height: 790px;
+}
+/*關於我*/
+.card{
+    font-family:'SNsanafonmaru';
+}
+.about {
+	padding:100px 0;
+    background-color: #ffffff;
+}
+.about_name{
+    font-weight: bold;
+    font-size:32px;
+    background-color: rgb(255, 229, 156);
+    width: 150px;
+    margin: auto;
+    font-family:'SNsanafonmaru';
+}
+.cry{
+    margin-bottom: 20px;
+}
+.textword{
+    font-family: 'KurewaGothicCjkTc-Bold';
+}
+.about img {
+	box-shadow:2px 2px 4px gray;
+}
+.title {
+	font-size:32px;
+    font-family:'SNsanafonmaru';
+	font-weight: bold;
+    background-color:rgb(255, 229, 156);
+    border-radius: 50px;
+}
+
+.title_line {
+	border-color:#ffffff;
+}
+
+.story {
+  	padding: 50px ; 
+	font-size: 24px;
+}
+
+.story span {
+	font-family:'SNsanafonmaru';
+	font-size:48px;
+	display: block;
+	font-weight: bold;
+    text-align: center;
+}
+.title_line {
+	margin-bottom: 50px;
+}
+/*產品*/
+.product {
+    background-color: #ffffff;
+	padding-bottom:70px;
+}
+.product .card {
+	background-color: rgb(255, 229, 156);
+	padding: 20px 10px;
+	margin-bottom: 10px;
+    box-shadow:2px 2px 4px rgb(74, 33, 13);
+}
+.product img {
+	width: 100%;
+	margin-bottom:20px;
+    
+}
+.product img:hover {
+	opacity: 0.8;
+}
+.product_name {
+	padding: 10px;
+    font-family:'KurewaGothicCjkTc-Bold';
+}
+/*購買*/
+.contact {
+	height:800px;
+	padding-top: 100px;
+	background-image: url(../images/baymaxhug.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+}
+.title2 {
+    font-family:'SNsanafonmaru';
+	font-size:32px;
+	font-weight: bold;
+    color: #ffffff;
+    background-color:rgb(74, 33, 13);
+    border-radius: 50px;
+}
+.contact .take{
+    font-family:'KurewaGothicCjkTc-Bold';
+    font-size:90px;
+    color: rgb(74, 33, 13);
+}
+#preloader {/*   這是整個會蓋住畫面的底色色塊  */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    background-color: #fff;
+    z-index: 9999;
+  }
+  #status {/*   這是中間loading的gif坐標css,我們盡量讓他畫面置中  */
+    position: fixed;
+    width: 218px;
+    height: 419px;
+    margin-left: -140px;
+    margin-top: -160px;
+    left: 50%;
+    top: 50%;
+  }
+  .a{
+    height: 50px;
+  }
+.take1{
+    font-size: 110px;
+    font-family:'KurewaGothicCjkTc-Bold';
+    color: rgb(74, 33, 13);
+}
+   .animate__animated.animate__backInUp {
+    --animate-duration: 1.5s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+  .animate__animated.animate__flipInX {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+  .animate__animated.animate__fadeInUp {
+    --animate-duration: 4s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+  .animate__animated.animate__fadeInRight {
+    --animate-duration: 4s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+  .animate__animated.animate__fadeInLeft {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+  

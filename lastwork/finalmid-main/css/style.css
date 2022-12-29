@@ -1,0 +1,428 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+    font-family: 'SNsanafonmaru';
+    src: local('SNsanafonmaru'),
+        url('/fonts/SNsanafonmaru.woff') format('woff');
+  }
+@font-face {
+    font-family: 'KurewaGothicCjkTc-Bold';
+    src: local('KurewaGothicCjkTc-Bold'),
+        url('/fonts/KurewaGothicCjkTc-Bold.woff') format('woff');
+  }
+
+html{
+	width: 100%;
+}
+* {
+	box-sizing: border-box;
+}
+.navbar-brand img {
+	height: 50px;
+}
+@media (min-width: 768px) {
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+    
+}
+}
+.robort{
+    display: block;
+    width: 40px;
+    height:40px;
+    margin: 0 10px 0 0px;
+    padding: 0 0 0 0;
+}
+.robort:hover{
+    transform: scale(1.2);
+    border-radius: 50%;
+    background-color:rgb(255, 229, 156);
+}
+.title{
+    font-family: 'SNsanafonmaru';
+    font-size: 20px;
+    font-weight: 900;
+}
+.user{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 0 0 0px;
+    padding: 0 0 0 0;
+}
+.user:hover{
+    transform: scale(1.2);
+    border-radius: 50%;
+    background-color:rgb(255, 229, 156);
+}
+.role{
+    display: flex;
+    display: block;
+    text-decoration: none;
+    padding:0px 0px 0 0;
+    margin: 0 0px 0 0;
+    width: 90px;
+    height: 50px;
+    font-family: 'KurewaGothicCjkTc-Bold';
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 55px;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+    
+}
+.role:hover{
+    transform: scale(1.2);
+    color: rgb(255, 229, 156);
+    text-decoration: none;
+  }
+.box3{
+   
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.box2{
+  
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+}  
+.youtube{
+    width: 500px;
+    height: 400px;
+}
+.article-two-rectangle{
+    width: 190px;
+    height: 40px;
+    background-color: rgb(255, 229, 156);
+    position: absolute;
+    margin: 0px 0 150px 10px;
+    z-index: 0;
+}
+.article-two-slogan{
+    width: 300px;
+    height: 230px;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: normal;
+    color: black;
+    border-left: rgb(255, 229, 156) 4px solid;
+    border-right: black 4px solid;
+    z-index: 10;
+}
+.article-two-slogan h1{
+    height: 80px;
+    font-size: 30px;
+    font-family: 'SNsanafonmaru';
+    font-weight: 700;
+    margin:0 0 0 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-left: rgb(255, 229, 156) 8px solid;
+    z-index: 10;
+}
+.article-two-slogan h3{
+    height: 150px;
+    line-height: 30px;
+    font-family: 'KurewaGothicCjkTc-Bold';
+    font-size: 20px;
+    font-weight: 700;
+    margin:0 0 0 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-right: black 8px solid;
+    z-index: 10;
+}
+.contact {
+    height: 750px;
+	background-image: url(../images/image0\ \(5\).png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+	background-position:start;
+}
+
+.article-three-slogan{
+    width: 370px;
+    height: 80px;
+    display:flex;
+    font-family: 'SNsanafonmaru';
+    justify-content:start;
+    align-items: center;
+    margin: 80px 0 0px 160px;
+    color: black;
+    z-index: 10;
+}
+.article-three-rectangle1{
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    margin: 105px 0 0px 140px;
+    border-radius: 10px;
+    z-index: 0;
+}
+.article-three-rectangle{
+    width: 180px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    margin: 170px 0 0px 147px;
+    border-radius: 10px;
+    z-index: 0;
+}
+.article-three h1{
+    padding:0px 0px 0 0;
+    margin: 0px 5px 0px 0px;
+    font-family: 'SNsanafonmaru';
+    font-size: 30px;
+    font-weight: 900;   
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    z-index: 10;
+}
+.article-three h3{
+    padding:0px 0px 0 0;
+    margin: 20px 5px 20px 0px;
+    font-family: 'SNsanafonmaru';
+    font-size: 20px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    z-index: 10;
+}
+.article-three h5{
+    padding:0px 0px 0 0;
+    margin: 0px 5px 0px 0px;
+    font-family: 'SNsanafonmaru';
+    font-size: 15px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    z-index: 10;
+}
+.box4 h2{
+    height: 30px;
+    padding:0px 0px 0px 0;
+    margin: 0px 0px 0 150px;
+    font-family: 'SNsanafonmaru';
+    font-size: 40px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: black;
+    z-index: 10;
+}
+.box4 h4{
+    padding:0px 0px 0 0;
+    margin: 10px 0px 0 30px;
+    font-family: 'SNsanafonmaru';
+    font-size: 30px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: black;
+    z-index: 10;
+}
+.box4{
+    height: 600px;
+    position:relative;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+	
+}
+.article-four-rectangle{
+    width: 220px;
+    height: 30px;
+    background-color: rgb(255, 229, 156);
+    position:absolute;
+    margin: 0px 0 150px 5px ;
+    z-index:0;
+}
+.article-four-slogan{
+    width: 300px;
+    height: 230px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: normal;
+    color: black;
+    border-left : black 4px solid;
+    border-right : rgb(255, 229, 156) 4px solid;
+    z-index: 20;
+}
+.article-four-slogan h1{
+    height: 70px;
+    font-size: 30px;
+    font-family: 'SNsanafonmaru';
+    border-left : black 8px solid;
+    margin: 0px 0px 0 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.article-four-slogan h3{
+    height: 100px;
+    line-height: 35px;
+    font-family: 'KurewaGothicCjkTc-Bold';
+    font-size: 20px;
+    margin: 0px 0 0 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-right : rgb(255, 229, 156) 8px solid;
+}
+.article-four-slogan h2{
+    height: 60px;
+    font-size: 25px;
+    font-family: 'KurewaGothicCjkTc-Bold';
+    margin: 0px 0 0 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-right : rgb(255, 229, 156) 8px solid;
+}
+.box5{
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.box6{
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    height: 200px;
+    background-color: rgb(255, 229, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.firstfooter-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin: 0px 0 0 0px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 3px;
+}
+.firstfooter-list{
+    display: flex;
+    padding: 0;
+    margin: 20px 0 0 40px;
+}
+.firstfooter-list-items{
+    display: flex;
+    width: 90px;
+    height: 60px;
+    margin: 0 0px 0 0;
+    list-style: none;
+}
+.firstfooter-img{
+    width: 50px;
+    height: 50px;
+    margin: 0px 0 0 0;
+}
+.firstfooter-list-items-link{
+    display: flex;
+    display: block;
+    text-decoration: none;
+    padding:0px 0px 0 0;
+    margin: 0px 0px 0 0;
+    width: 50px;
+    height: 50px;
+}
+.firstfooter-list-items-link:hover{
+    transform: scale(1.2);
+    border-radius: 33%;
+    background-color: white;
+  }
+.secondfooter-box{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin: 0px 0 0 0px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 3px;
+}
+.secondfooter-list{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.secondfooter-list-items{
+    display: flex;
+    width: 90px;
+    height: 60px;
+    margin: 0px 0px 0 0;
+    list-style: none;
+}
+.secondfooter-list-items-link{
+    display: flex;
+    display: block;
+    text-decoration: none;
+    padding:0px 0px 0 0;
+    margin: 0 0px 0 0;
+    width: 90px;
+    height: 60px;
+    font-family: 'SNsanafonmaru';
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 55px;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+}
+.secondfooter-list-items-link:hover{
+    transform: scale(1.2);
+    color: black;
+  }
+.lastbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alarm-item{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.alarm-item p{
+    font-family: 'SNsanafonmaru';
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    margin: 0 0 0 0;
+    color: white;
+}

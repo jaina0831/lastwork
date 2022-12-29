@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+    font-family: 'KurewaGothicCjkTc-Bold';
+    src: local('KurewaGothicCjkTc-Bold'),
+        url('/fonts/KurewaGothicCjkTc-Bold.woff') format('woff');
+  }
+.html{
+    width: 100%;
+    }
+.contact {
+	height:1000px;
+	padding-top: 100px;
+	background-image: url(../images/ocean.gif );
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+}
+
+.contact .title {
+	color:#ffffff;
+}
+
+.contact .form {
+	max-width: 500px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:rgb(74, 33, 13);
+    font-family:'KurewaGothicCjkTc-Bold';
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: rgb(74, 33, 13);
+	margin:7.5px 0;
+    box-shadow:2px 2px 4px rgb(74, 33, 13);
+    font-family:'KurewaGothicCjkTc-Bold';
+}
+input[type=submit] {
+  background-color: rgb(74, 33, 13);
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+  margin-top:30px ;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(255, 229, 156);
+  color: rgb(74, 33, 13);
+}
+ .logo{
+    height: 100px;
+} 
+.logo_img{
+    width: 50px;
+}
+.logo_img:hover{
+    transform: scale(1.2);
+    border-radius: 50%;
+    background-color:rgb(255, 229, 156);
+}
+.social_media{
+    display: flex;
+    display: block;
+    text-decoration:none;
+    padding:0px 0px 0 0;
+}
+
+.media-icon:hover{
+    transform: scale(1.1);
+  }
+.media-icon{
+    width:30px;
+    height:30px;
+}
+.title3{
+    margin-bottom: 0px;
+    color: rgb(255, 229, 156);
+    font-family:'KurewaGothicCjkTc-Bold';
+}
+.title4{
+    margin-bottom: 0px;
+    color: rgb(255, 229, 156);
+    font-family:'KurewaGothicCjkTc-Bold';
+}
+.enter{
+    margin-bottom: 10px;
+}
+.title_line {
+	margin-top: 30px;
+    border:rgb(74, 33, 13) 1.5px solid ;
+    border-radius: 50px;
+}
+.title2_line {
+	margin-top: 40px;
+    border:rgb(74, 33, 13) 1.5px solid ;
+    border-radius: 50px;
+}
+.Continue{
+    margin-top: 30px;
+}
+.square{
+    width: 20px;
+    height: 20px;
+}
+.square:hover{
+    transform: scale(1.1);
+}
+.squareRemeber{
+    display: flex;
+}
+.Remeber{
+    color:rgb(74, 33, 13);
+}
+.last{
+    margin-bottom: 20px;
+}
+.dont{
+    font-family:'KurewaGothicCjkTc-Bold';
+    color: rgb(74, 33, 13);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.Sign{
+    font-family:'KurewaGothicCjkTc-Bold';
+    color: rgb(74, 33, 13);
+}
+.sign{
+    color: rgb(74, 33, 13);
+    cursor: pointer;
+    font-size: 48px;
+    font-family:'KurewaGothicCjkTc-Bold';
+}
+.back{
+  backdrop-filter:contrast(60%); /* 對比效果 */
+  -webkit-backdrop-filter:contrast(50%);
+  border-radius: 50px;
+}
